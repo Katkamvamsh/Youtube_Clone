@@ -1,0 +1,68 @@
+.sidebar{
+       padding: 3px;
+    margin-top: 10px;
+ position: sticky;
+ width: fit-content;  /*automaically container widt will be set by content in any device*/
+  box-shadow: 0 0 6px ;
+    background-color: #fffafa;
+}
+.hidingpara {
+ padding: 3px;
+ width: 20px;
+margin-top: 10px;
+padding-left: 8px;
+width: 10vw;
+box-shadow: 0 0 6px ;
+ background-color: #ffffff;
+}
+.hidingpara p{
+    display: none;
+}
+
+.shortcut_links_container img{
+    width: 40px;
+    margin-right: 29px;
+}
+
+.side_link{
+ border-radius: 4px;
+ background-color: rgba(5, 238, 28, 0.062);
+ margin-bottom: 15px;
+ padding: 5px 14px;
+ display: flex;
+ color: rgb(0, 0, 0); /*home will be black color cuz it has inline css */
+ align-items: center;
+ cursor: pointer;
+}
+
+.side_link_selectd {
+    background-color: rgb(7, 88, 11);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(255, 255, 255);/* Example: highlight selected link */
+  }
+
+ .side_link:hover {
+    transition: 0.4s;
+    font-style: italic;
+    font-family: "Roboto";
+    font-weight: 600;
+   }
+
+    .subscribed_list_container h2{
+      margin-top: 28px;
+        margin-bottom: 11px;
+        font-family: "Roboto";
+}
+
+    .subscribed_list_container img{
+        width: 40px;
+        margin-right: 29px;
+        border-radius: 50px;
+}
+
+   
+        
+    
+   
